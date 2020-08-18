@@ -7,52 +7,54 @@
     <title>Document</title>
 </head>
 <body>
-    
-    <div class="container">
-        <form action="action_page.php">
-          <div class="row">
-            <div class="col-25">
-                <div class="row">
-                    <div class="col-25">
-                      <label for="Title">Title</label>
-                    </div>
-                    <div class="col-75">
-                      <select id="title" name="title">
-                        <option value="blank"></option>  
-                        <option value="ms">Ms</option>
-                        <option value="mrs">Mrs</option>
-                        <option value="miss">Miss</option>
-                        <option value="mr">Mr</option>
-                      </select>
-                    </div>
-                  </div>
-              <label for="fname">First Name</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="fname" name="firstname" placeholder="Serena">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="lname">Last Name</label>
-            </div>
-            <div class="col-75">
-              <input type="text" id="lname" name="lastname" placeholder="Dawson">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-25">
-              <label for="subject">Subject</label>
-            </div>
-            <div class="col-75">
-              <textarea id="subject" name="subject" placeholder="Talk to me" style="height:200px"></textarea>
-            </div>
-          </div>
-          <div class="row">
-            <input type="submit" value="Submit">
-          </div>
-        </form>
-      </div>
-    
-</body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="port.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<div class= "box-1">
+    <h1> <div class="p-3 mb-2 bg-info text-white">Tashena Malloy</div> </h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    ​
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Contact
+              </a>
+
+<form>
+    <div class="form-group">
+        <label>Name: </label>
+        <input type="text" name="name">
+    </div>
+    <div class="form-group">
+        <label>Email: </label>
+        <input type="text" name="email">
+    </div>
+    <div class="form-group">
+        <label>Message: </label>
+        <textarea name="message"></textarea>
+    </div>
+    <input class="button" type="submit" value="Submit" name="">
+</form>
+
+</div>
+</nav>
+
+<div class="footer">
+    <h3>TMM</h3>
+    <p> &copy; July 2020</p>
+  </div>
+
+</body>  
 </html>
