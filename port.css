@@ -1,6 +1,6 @@
 html {
     background: rgb(121,9,96);
-    background: linear-gradient(90deg, rgba(121,9,96,1) 25%, rgba(2,0,36,1) 50%, rgba(142,41,209,1) 75%);
+    background: linear-gradient(90deg, rgba(121,9,96,1) 25%, rgb(104, 104, 109) 50%, rgba(142,41,209,1) 75%);
 }
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,7 +9,7 @@ header {
 }
 body {
 background: rgb(121,9,96);
-background: linear-gradient(90deg, rgba(121,9,96,1) 25%, rgba(2,0,36,1) 50%, rgba(142,41,209,1) 75%);
+background: linear-gradient(90deg, rgba(121,9,96,1) 25%, rgb(119, 118, 121) 50%, rgba(142,41,209,1) 75%);
 
   
 html {
