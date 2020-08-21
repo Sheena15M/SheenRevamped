@@ -1,4 +1,9 @@
 # SheenRevamped
+Link to deployed repo
+
+*  https://sheena15m.github.io/SheenRevamped/
+
+
 *Updated Portfolio using HTML,CSS, BootStrap
 <img src="./AboutScreen.png">
 
