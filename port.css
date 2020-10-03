@@ -1,100 +1,27 @@
 html {
     background: rgb(121,9,96);
     background: linear-gradient(90deg, rgba(121,9,96,1) 25%, rgb(104, 104, 109) 50%, rgba(142,41,209,1) 75%);
+    font-family: 'Karla', sans-serif;
 }
-header {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+.jumbotron {
+    font-family: 
+    text-align, center;
+    text-decoration-color: aliceblue;
+    text-decoration-thickness:;
 
 }
 body {
 background: rgb(121,9,96);
 background: linear-gradient(90deg, rgba(121,9,96,1) 25%, rgb(119, 118, 121) 50%, rgba(142,41,209,1) 75%);
 
+ 
+    
+}
   
-html {
-    font: 300 100%/1.5 Ubuntu, sans-serif;
-    color: #333;
-    overflow-x: hidden;
-  }
   h2 {
     margin: 0;
     color: #8495a5;
     font-size: 2.5em;
     font-weight: 300;
   }
-  form {
-    height: 400px; 
-    font-size: 16x;
-     } 
-     input {
-         width: 620px;
-         /* height: 20px; */
-         font-size: 16px;
-         margin: 8px 0;
-         }
-     textarea {
-         width: 620px;
-         font-size: 16px;
-         display: block;
-         text-align:left;
-         overflow: scroll;
-         padding: 20px;
-         resize: none;
-         }   
-     input[type=submit] {
-         background-color: #2d5ec9;
-         color: #ffffff;
-         font-size: 14px;
-         width: 80px;
-         text-align: center;
-         }
-  @media screen and (min-width: 30em) {
-    #contact-form h2 {
-      margin-left: 26.3736%;
-      font-size: 2em;
-      line-height: 1.5;
-    }
-    label > span {
-      vertical-align: top;
-      display: inline-block;
-      width: 26.3736%;
-      padding: 0.5em;
-      border: 1px solid transparent;
-      text-align: right;
-    }
-    input, textarea, button {
-      width: 73.6263%;
-      line-height: 1.5;
-    }
-    textarea {
-      height: 10em;
-    }
-    input[type="submit"], button {
-      margin-left: 26.3736%;
-    }
-  }
-  @media screen and (min-width: 48em) {
-    #contact-form {
-      text-align: justify;
-      line-height: 0;
-    }
-    #contact-form:after {
-      content: '';
-      display: inline-block;
-      width: 100%;
-    }
-    #contact-form h2 {
-      margin-left: 17.2661%;
-    }
-    #contact-form form, #contact-form aside {
-      vertical-align: top;
-      display: inline-block;
-      width: 65.4676%;
-      text-align: left;
-      line-height: 1.5;
-    }
-    #contact-form aside {
-      width: 30.9353%;
-    }
-  }
+  
